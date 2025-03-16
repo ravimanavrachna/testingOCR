@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+_pycache_/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+dataset
+venv/
+env/
+.venv/
+.conda/
+.venv.bak/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and database
+*.log
+*.sqlite3
+*.db
+*.sqlite
+
+# Secrets and configurations
+.env
+*.pem
+*.key
+
+# Caches
+.cache/
+*.pyc
+*.pyo
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.iml
+
+# pytest cache
+.pytest_cache/
+
+# MyPy cache
+.mypy_cache/
+
+# Coverage reports
+htmlcov/
+coverage.xml
+*.cover
+*.coverage
+nosetests.xml
+
+# Docker
+*.pid
+*.sock
+
+# macOS / Windows system files
+.DS_Store
+Thumbs.db
